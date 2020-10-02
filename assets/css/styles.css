@@ -162,6 +162,26 @@ html, body {
   width: 100%;
 }
 
+.link-salmon {
+  color: #f68b67;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.link-salmon:hover {
+  text-decoration: underline;
+}
+
+.link-prusia {
+  color: #0b2739;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.link-prusia:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: #0d2f44;
   padding: 4rem 0;
@@ -235,7 +255,7 @@ footer {
   }
 
   .container {
-    width: 70%;
+    width: 72%;
   }
 
   .desktop {
@@ -283,13 +303,13 @@ footer {
     font-size: 3rem;
     line-height: 3.3rem;
   
-    padding: 0 0 2rem 9rem;
+    padding: 0 0 2rem 10rem;
   }
   
   .text-three {
     font-size: 2.5rem;
     line-height: 3rem;
-    padding: 0 9rem;
+    padding: 0 10rem;
     padding-bottom: 0;
   }
 
@@ -305,13 +325,13 @@ footer {
     font-size: 3rem;
     line-height: 3.3rem;
   
-    padding: 2rem 9rem;
+    padding: 2rem 10.5rem;
   }
   
   .text-four {
     font-size: 2.5rem;
     line-height: 3rem;
-    padding: 0 9rem;
+    padding: 0 10.5rem;
     padding-bottom: 0;
   }
 
@@ -327,19 +347,19 @@ footer {
     font-size: 3rem;
     line-height: 3.3rem;
   
-    padding: 2rem 15rem;
+    padding: 2rem 16rem;
   }
   
   .text-five {
     font-size: 2.5rem;
     line-height: 3rem; 
-    padding: 0 15rem;
+    padding: 0 16rem;
     padding-bottom: 0;
   }
 
   .title-footer {
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
   }
 
   .body-footer {
