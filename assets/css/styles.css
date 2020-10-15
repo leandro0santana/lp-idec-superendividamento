@@ -399,7 +399,7 @@ footer {
   max-width: 12.1rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1110px) {
   html, body {
     font-size: 62.5%;
   }
@@ -528,6 +528,10 @@ footer {
     line-height: 3.2rem;
   }
 
+  .subtitle-footer {
+    margin-top: 4rem;
+  }
+
   .container-button-footer {
     display: flex;
     justify-content: center;
@@ -538,7 +542,7 @@ footer {
   .button-support {
     width: 35rem;
     height: 10rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
   }
 
   .button-opinion {
@@ -547,13 +551,7 @@ footer {
     font-size: 2.4rem;
     line-height: 2.8rem;
     padding: 0 2rem;
-    margin: 0m 2rem;
-  }
-
-  .button-download {
-    height: 10rem;
-    font-size: 2.2rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
   }
 
   .body-footer {
@@ -568,7 +566,7 @@ footer {
 
   .text-social {
     font-size: 1.6rem;
-    padding: 0 4.5rem;
+    padding: 0 5rem;
   }  
 
   .logos-footer {
@@ -595,6 +593,13 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
+  }
+
+  .limit-thumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
   }
   
 }
