@@ -264,6 +264,16 @@ footer {
   text-align: center;
 }
 
+.subtitle-footer {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  color: #f68b67;
+  font-weight: 900;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 .text-social {
   font-size: 1.6rem;
   color: #f68b67;
@@ -356,28 +366,37 @@ footer {
   opacity: 0.8;
 }
 
-.button-download {
+.thumbs-download {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: #f68b67;
-  color: #0d2f44;
-  width: 100%;
-  height: 7.5rem;
-  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #f68b67;
+  font-size: 2.5rem;
   font-weight: 900;
-  border-radius: 1rem;
-  text-decoration: none !important;
-  border: 0;
-  outline: 0;
-  transition: opacity 0.5s;
-  margin: 2.5rem 0;
   text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
 }
 
-.button-download:hover {
-  opacity: 0.8;
+.thumbs-face-insta {
+  width: 100%;
+  max-width: 21rem;
+}
+
+.thumbs-twitter {
+  width: 100%;
+  max-width: 39.3rem;
+}
+
+.thumbs-whatsapp {
+  width: 100%;
+  max-width: 21rem;
+}
+
+.thumbs-stories {
+  width: 100%;
+  max-width: 12.1rem;
 }
 
 @media (min-width: 1024px) {
@@ -517,11 +536,13 @@ footer {
   }
 
   .button-support {
+    width: 35rem;
     height: 10rem;
     margin: 0 2rem;
   }
 
   .button-opinion {
+    width: 35rem;
     height: 10rem;
     font-size: 2.4rem;
     line-height: 2.8rem;
@@ -546,7 +567,7 @@ footer {
   }
 
   .text-social {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 0 8rem;
   }  
 
@@ -562,6 +583,18 @@ footer {
 
   .logo {
     margin-left: 6rem;
+  }
+
+  .thumbs-download {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+  }
+
+  .container-thumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
   }
   
 }
